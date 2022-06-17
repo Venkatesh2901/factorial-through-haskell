@@ -1,0 +1,7 @@
+fact :: Integer -> Integer 
+fact 0 = 1 
+fact number = number * fact ( number - 1 ) 
+
+main = do 
+   putStrLn "The factorial of 6 is:" 
+   print (fact 6)
